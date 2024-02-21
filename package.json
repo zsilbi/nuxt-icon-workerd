@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-icon-workerd",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.2",
+    "nuxt-icon": "^0.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "vue": "3.4.8"
+    }
+  }
+}
