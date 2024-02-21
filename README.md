@@ -1,5 +1,7 @@
 # nuxt-icon-workerd (error reproduction)
 
+Issue: https://github.com/nuxt-modules/icon/issues/142
+
 1. Install dependencies:
 
 ```bash
