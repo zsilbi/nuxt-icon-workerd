@@ -1,4 +1,4 @@
-# nuxt-icon-workerd
+# nuxt-icon-workerd (error reproduction)
 
 1. Install dependencies:
 
