@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-icon-workerd-iconify",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@iconify/core": "^2.0.2"
+  }
+}

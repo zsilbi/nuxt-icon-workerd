@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@iconify/core": "^2.0.2",
     "nuxt": "^3.10.2",
     "nuxt-icon": "^0.6.8"
   },

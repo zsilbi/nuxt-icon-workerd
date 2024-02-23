@@ -1,5 +1,7 @@
 # nuxt-icon-workerd (error reproduction)
 
+## Testing nuxt-icon
+
 Issue: https://github.com/nuxt-modules/icon/issues/142
 
 1. Install dependencies:
@@ -34,7 +36,33 @@ npx wrangler dev .output/server/index.mjs --site .output/public
 7. Repeat steps 3-6 if no error is visible in console
 8. Remove `<Icon>` from `app.vue` and check again
 
-### These errors occur only if the worker is cold started:
+## Testing @iconify/core `loadIcon()`
+
+1. Change to the the `iconify` directory
+
+```
+cd iconify
+```
+
+2. Install dependencies:
+
+```bash
+pnpm i
+```
+
+3. Start Wrangler:
+
+```bash
+npx wrangler dev index.js
+```
+
+4. Open page
+
+- http://localhost:8787
+
+5. Check console and the open tab
+
+### Errors that should appear in the console:
 
 `✘ [ERROR] Uncaught (in response) Error: The script will never generate a response.`
 
